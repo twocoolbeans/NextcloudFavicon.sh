@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# https://github.com/schnappijedi/NextcloudFavicon
+
 # Edit the location of the favicon you want to use (/home/favicon.ico), the location of your Nextcloud installation (/var/www/nextcloud/core/img/favicon.ico), the HTTP user of your server (see below), and your webserver service (Apache or Nginx) before running this script. Run script with sudo permissions.
 
 # The HTTP user and group in Arch Linux is http
