@@ -11,6 +11,6 @@
 # The HTTP user and group in Fedora/CentOS is apache
 # The HTTP user in openSUSE is wwwrun, and the HTTP group is www
 
-cp /home/user/favicon.ico /var/www/nextcloud/core/img/favicon.ico
-chown www-data:www-data /var/www/nextcloud/core/img/favicon.ico
-service apache2 restart
+sudo cp /home/user/favicon.ico /var/www/nextcloud/core/img/favicon.ico
+sudo chown www-data:www-data /var/www/nextcloud/core/img/favicon.ico
+sudo service apache2 restart
